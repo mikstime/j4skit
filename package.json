@@ -1,0 +1,15 @@
+{
+  "name": "@joblessness/j4skit",
+  "version": "1.0.5",
+  "description": "SPA creation framework",
+  "main": "index.js",
+  "author": "Michael Balitsky <mmbalitsky@gmail.com>",
+  "license": "ISC",
+  "files": [
+    "navigator.js",
+    "page.js",
+    "index.js",
+    "utils/",
+    "README.md"
+  ]
+}
