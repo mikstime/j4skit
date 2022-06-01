@@ -17,14 +17,14 @@
 ```npm i j4skit```
 
 nav.js
-```ecmascript 6
+```javascript
 import {Navigator} from 'j4skit'
 // Один навигатор на приложение
 Navigator = new Navigator();
 export {Navigator}
 ```
 hello.js
-```ecmascript 6
+```javascript
 import {Page} from 'j4skit'
 import {Navigator} from './app.js'
 //Самая простая реализация компоненты
@@ -94,7 +94,7 @@ const Routes = [
 export default Routes;
 ```
 app.js
-```ecmascript 6
+```javascript
 import { Navigator } from './nav'
 import HELLO_WORLD_ROUTES from './hello.js'
 // Добавить пути
